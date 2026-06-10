@@ -1,0 +1,717 @@
+{
+  "bot_name": "BalleBaaz Arena Assistant",
+  "venue": {
+    "name": "BalleBaaz Arena",
+    "category": "Cricket Ground",
+    "address": "78X8+86, Bakaram Jagir, Telangana 500075, India",
+    "contact": "+91 79974 74993",
+    "whatsapp": "+91 79974 74993",
+    "operating_hours": "Daily 7:00 AM – 5:00 PM",
+    "support_hours": "7:00 AM – 6:00 PM",
+    "rating": "4/5",
+    "listed_on": "CricHeroes",
+    "suitable_for": ["Tennis Ball Cricket", "Leather Ball Cricket"],
+    "events_hosted": [
+      "Corporate cricket matches",
+      "Weekend cricket tournaments",
+      "Practice sessions",
+      "Local cricket leagues",
+      "Tennis ball cricket matches",
+      "Leather ball cricket matches"
+    ]
+  },
+  "ground_specifications": {
+    "ground_type": "Cricket Ground",
+    "pitch_type": "TBC",
+    "turf_pitch": "TBC",
+    "cement_pitch": "TBC",
+    "matting_pitch": "TBC",
+    "box_cricket": "TBC",
+    "ground_size": "TBC",
+    "boundary_straight": "TBC",
+    "boundary_square": "TBC",
+    "max_players": "TBC",
+    "spectator_capacity": "TBC",
+    "seating_capacity": "TBC"
+  },
+  "facilities": {
+    "provided_by_venue": [
+      "Umpires",
+      "Scorers",
+      "Flood Lights",
+      "Cricket Balls",
+      "Washrooms",
+      "Pavilion / Dugout",
+      "Sight Screen"
+    ],
+    "additional": {
+      "parking": true,
+      "parking_capacity": "25–30 cars",
+      "first_aid": true,
+      "drinking_water": true,
+      "changing_rooms": true,
+      "locker_facility": false,
+      "scoreboard": true,
+      "canteen": true,
+      "snacks": true,
+      "outside_food_allowed": true,
+      "food_preorder": true
+    },
+    "player_must_bring": [
+      "Cricket Bat",
+      "Gloves",
+      "Pads",
+      "Helmet",
+      "Sportswear",
+      "Personal Safety Equipment"
+    ]
+  },
+  "slots": {
+    "standard_duration": "2 Hours",
+    "available_slots": [
+      {
+        "name": "Morning Slot",
+        "timings": "7:00 AM – 10:00 AM",
+        "price": 1500
+      },
+      {
+        "name": "Mid-Day Slot",
+        "timings": "10:00 AM – 1:00 PM",
+        "price": 1900
+      },
+      {
+        "name": "Afternoon Slot",
+        "timings": "1:00 PM – 3:00 PM",
+        "price": 2300
+      },
+      {
+        "name": "Evening Slot",
+        "timings": "3:00 PM – 5:00 PM",
+        "price": 2800
+      }
+    ],
+    "availability_rules": [
+      "Slots are subject to prior bookings.",
+      "Advance booking is recommended for weekends.",
+      "Team practice and tournament bookings may block multiple slots.",
+      "Public holidays may have limited availability.",
+      "Live slot availability must be verified directly through booking support."
+    ]
+  },
+  "pricing": {
+    "standard_range": "₹1500 – ₹3000",
+    "slot_prices": {
+      "morning": 1500,
+      "mid_day": 1900,
+      "afternoon": 2300,
+      "evening": 2800
+    },
+    "weekend_pricing": "₹15,000 – ₹20,000",
+    "public_holiday_pricing": "₹15,000 – ₹20,000",
+    "tournament_pricing": "Custom Quote Required",
+    "corporate_pricing": "Custom Pricing Available",
+    "taxes_note": "Please confirm with venue management during booking."
+  },
+  "booking_process": {
+    "steps": [
+      "Step 1: Contact Venue",
+      "Step 2: Check Slot Availability",
+      "Step 3: Select Preferred Slot",
+      "Step 4: Provide Team / Player Details",
+      "Step 5: Complete Payment",
+      "Step 6: Receive Booking Confirmation",
+      "Step 7: Entry Verification at Venue"
+    ],
+    "notes": [
+      "Advance booking recommended.",
+      "Weekend bookings fill quickly."
+    ]
+  },
+  "payment": {
+    "accepted_methods": [
+      "UPI",
+      "Google Pay",
+      "PhonePe",
+      "Debit Cards",
+      "Credit Cards",
+      "Net Banking"
+    ],
+    "confirmation_timing": "Immediately after successful payment",
+    "confirmation_channels": ["SMS", "WhatsApp", "Call Confirmation"],
+    "confirmation_includes": [
+      "Booking ID",
+      "Date & Time",
+      "Slot Details",
+      "Payment Status",
+      "Venue Details"
+    ],
+    "payment_failure": "Retry payment or contact support."
+  },
+  "entry_rules": {
+    "arrive_early": "15–20 minutes before slot time",
+    "must_show": "Booking confirmation",
+    "valid_mobile_required": true,
+    "extra_players": "Not allowed without prior approval",
+    "late_arrival_note": "Late arrival may reduce playing time."
+  },
+  "venue_rules": {
+    "general": [
+      "Maintain sportsmanship.",
+      "Follow staff instructions.",
+      "No abusive language.",
+      "No misconduct.",
+      "Wear proper sportswear.",
+      "Use cricket shoes.",
+      "Entry only during booked slot timings."
+    ],
+    "spectators": "Spectators must stay outside active playing area.",
+    "parking": "Vehicles must be parked only in designated parking zones."
+  },
+  "intoxication_policy": {
+    "prohibited": ["Alcohol", "Smoking", "Intoxicating substances"],
+    "consequences": ["Denied Entry", "Immediate Removal", "Permanent Booking Restrictions"],
+    "refund_on_violation": false
+  },
+  "cancellation_policy": {
+    "allowed_before": "6–12 hours before slot",
+    "refund_eligibility": "Depends on cancellation timing",
+    "no_refund_cases": [
+      "Late cancellations",
+      "No-shows",
+      "Weather-safe playable conditions"
+    ],
+    "refund_timeline": "5–7 business days",
+    "refund_method": "Original payment method"
+  },
+  "rescheduling_policy": {
+    "allowed": true,
+    "max_times": 1,
+    "subject_to": "Slot availability and venue approval",
+    "fee": "Please confirm with venue management."
+  },
+  "penalty_matrix": [
+    { "violation": "Minor Damage", "penalty": "₹300" },
+    { "violation": "Moderate Damage", "penalty": "₹700" },
+    { "violation": "Major Damage", "penalty": "₹1000" },
+    { "violation": "Overstay", "penalty": "₹400" },
+    { "violation": "Misconduct", "penalty": "Decided by management" }
+  ],
+  "damage_dispute": "Contact venue management. Investigation may be conducted. Final decision rests with management.",
+  "age_restrictions": {
+    "under_10": "Allowed only with guardian supervision",
+    "teenagers": "Allowed",
+    "adults": "Allowed",
+    "senior_citizens": "Allowed with safety precautions"
+  },
+  "edge_cases": {
+    "tournament_cancellation": "Contact venue management.",
+    "extra_player_entry": "Contact venue management.",
+    "damage_dispute": "Contact venue management for review.",
+    "payment_failure": "Retry payment or contact support.",
+    "wrong_slot_booked": "Contact venue management immediately.",
+    "booking_confirmation_lost": "Contact support with registered mobile number.",
+    "urgent_assistance": "Contact venue support directly by phone or WhatsApp."
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What are the operating hours of the ground?",
+      "answer": "The ground is open daily from 7:00 AM to 5:00 PM."
+    },
+    {
+      "id": 2,
+      "question": "What slot timings are available?",
+      "answer": "Morning: 7:00 AM – 10:00 AM | Mid-Day: 10:00 AM – 1:00 PM | Afternoon: 1:00 PM – 3:00 PM | Evening: 3:00 PM – 5:00 PM"
+    },
+    {
+      "id": 3,
+      "question": "How can I book a slot?",
+      "answer": "Slots can be booked through direct contact with the venue. Availability is updated regularly based on existing bookings."
+    },
+    {
+      "id": 4,
+      "question": "Are weekend slots available?",
+      "answer": "Yes, but advance booking is highly recommended for weekends due to high demand."
+    },
+    {
+      "id": 5,
+      "question": "Can tournament bookings block regular slots?",
+      "answer": "Yes. Team practice sessions and tournament bookings may block multiple slots."
+    },
+    {
+      "id": 6,
+      "question": "Are slots available on public holidays?",
+      "answer": "Availability may be limited during public holidays."
+    },
+    {
+      "id": 7,
+      "question": "What is the duration of one slot?",
+      "answer": "Each slot duration is 2 hours."
+    },
+    {
+      "id": 8,
+      "question": "What is the booking price?",
+      "answer": "The booking price ranges between ₹1500 and ₹3000, depending on the slot and booking type."
+    },
+    {
+      "id": 9,
+      "question": "Is full ground booking available?",
+      "answer": "Yes, tournament or full-ground booking is available with custom pricing."
+    },
+    {
+      "id": 10,
+      "question": "What payment methods are accepted?",
+      "answer": "Accepted payment methods include UPI, Google Pay, PhonePe, Debit/Credit Cards, and Net Banking."
+    },
+    {
+      "id": 11,
+      "question": "When will I receive payment confirmation?",
+      "answer": "Payment confirmation is shared instantly after a successful transaction."
+    },
+    {
+      "id": 12,
+      "question": "What details are included in the booking confirmation?",
+      "answer": "Booking confirmation includes Booking ID, Date and slot timing, Payment status, and Venue details."
+    },
+    {
+      "id": 13,
+      "question": "How will I receive booking confirmation?",
+      "answer": "Confirmation is shared through SMS, WhatsApp, and Call confirmation."
+    },
+    {
+      "id": 14,
+      "question": "How early should players arrive?",
+      "answer": "Players should arrive 15–20 minutes before the booked slot time."
+    },
+    {
+      "id": 15,
+      "question": "Is booking confirmation mandatory at entry?",
+      "answer": "Yes. Booking confirmation must be shown at entry."
+    },
+    {
+      "id": 16,
+      "question": "Are extra players allowed?",
+      "answer": "No. Unauthorized extra players are not allowed."
+    },
+    {
+      "id": 17,
+      "question": "What are the venue rules?",
+      "answer": "Players must maintain discipline and sportsmanship, avoid abusive language or misconduct, follow staff/security instructions, and use proper cricket shoes and sportswear."
+    },
+    {
+      "id": 18,
+      "question": "Can spectators enter the play area?",
+      "answer": "No. Spectators should remain outside the active play area."
+    },
+    {
+      "id": 19,
+      "question": "Is parking available?",
+      "answer": "Yes. Parking is allowed only in designated areas."
+    },
+    {
+      "id": 20,
+      "question": "What happens if venue property is damaged?",
+      "answer": "Damage to the venue or property may incur penalties ranging from ₹300 to ₹1000+ depending on severity."
+    },
+    {
+      "id": 21,
+      "question": "What is the cancellation policy?",
+      "answer": "Cancellation is allowed up to 6–12 hours before the slot time."
+    },
+    {
+      "id": 22,
+      "question": "Are refunds available?",
+      "answer": "Refund eligibility depends on cancellation timing."
+    },
+    {
+      "id": 23,
+      "question": "When are refunds not applicable?",
+      "answer": "No refund is provided for late cancellations, no-shows, or weather-safe playable conditions."
+    },
+    {
+      "id": 24,
+      "question": "How long does refund processing take?",
+      "answer": "Refunds are processed within 5–7 business days."
+    },
+    {
+      "id": 25,
+      "question": "Can I reschedule my booking?",
+      "answer": "Yes. Rescheduling is allowed once based on slot availability."
+    },
+    {
+      "id": 26,
+      "question": "What is the price for a morning slot?",
+      "answer": "Morning slot pricing starts from ₹1500."
+    },
+    {
+      "id": 27,
+      "question": "What is the price for a mid-day slot?",
+      "answer": "Mid-day slot pricing starts from ₹1900."
+    },
+    {
+      "id": 28,
+      "question": "What is the price for an afternoon slot?",
+      "answer": "Afternoon slot pricing starts from ₹2300."
+    },
+    {
+      "id": 29,
+      "question": "What is the price for an evening slot?",
+      "answer": "Evening slot pricing starts from ₹2800."
+    },
+    {
+      "id": 30,
+      "question": "Why are evening slots more expensive?",
+      "answer": "Evening slots are generally in higher demand and may include floodlight usage."
+    },
+    {
+      "id": 31,
+      "question": "Is pricing the same every day?",
+      "answer": "No. Pricing may vary based on weekends, holidays, tournaments, or special bookings."
+    },
+    {
+      "id": 32,
+      "question": "Is there separate pricing for corporate events?",
+      "answer": "Yes. Corporate bookings are available on custom pricing."
+    },
+    {
+      "id": 33,
+      "question": "Is there separate pricing for tournaments?",
+      "answer": "Yes. Tournament bookings are available on custom pricing."
+    },
+    {
+      "id": 34,
+      "question": "Can I get a quote for a full-ground booking?",
+      "answer": "Yes. Contact venue management for a custom quotation."
+    },
+    {
+      "id": 35,
+      "question": "Are taxes included in the booking price?",
+      "answer": "Please confirm with venue management during booking."
+    },
+    {
+      "id": 36,
+      "question": "Can I organize a cricket tournament at BalleBaaz Arena?",
+      "answer": "Yes. Tournament bookings are supported."
+    },
+    {
+      "id": 37,
+      "question": "How do I book the entire ground for a tournament?",
+      "answer": "Contact venue management directly for availability and pricing."
+    },
+    {
+      "id": 38,
+      "question": "Can multiple matches be scheduled in a tournament?",
+      "answer": "Yes, subject to slot availability."
+    },
+    {
+      "id": 39,
+      "question": "Is scorer support available for tournaments?",
+      "answer": "Yes. Scorers are available."
+    },
+    {
+      "id": 40,
+      "question": "Are umpires available for tournaments?",
+      "answer": "Yes. Umpires are available."
+    },
+    {
+      "id": 41,
+      "question": "Can tournament organizers reserve multiple slots?",
+      "answer": "Yes. Multiple slots may be reserved based on availability."
+    },
+    {
+      "id": 42,
+      "question": "Is advance booking recommended for tournaments?",
+      "answer": "Yes. Early booking is highly recommended."
+    },
+    {
+      "id": 43,
+      "question": "Can companies organize corporate cricket matches?",
+      "answer": "Yes. Corporate matches are supported."
+    },
+    {
+      "id": 44,
+      "question": "Are corporate events available on weekends?",
+      "answer": "Yes, subject to slot availability."
+    },
+    {
+      "id": 45,
+      "question": "Can a company reserve the entire venue?",
+      "answer": "Yes. Full-ground bookings are available."
+    },
+    {
+      "id": 46,
+      "question": "Is custom pricing available for corporate events?",
+      "answer": "Yes. Corporate bookings are quoted separately."
+    },
+    {
+      "id": 47,
+      "question": "Can recurring corporate matches be scheduled?",
+      "answer": "Please contact venue management for recurring bookings."
+    },
+    {
+      "id": 48,
+      "question": "Can I cancel my booking?",
+      "answer": "Yes. Cancellation is allowed according to venue policy."
+    },
+    {
+      "id": 49,
+      "question": "How long before the slot can I cancel?",
+      "answer": "Cancellation is generally allowed 6–12 hours before the slot."
+    },
+    {
+      "id": 50,
+      "question": "Will I receive a refund after cancellation?",
+      "answer": "Refund eligibility depends on cancellation timing."
+    },
+    {
+      "id": 51,
+      "question": "How long does refund processing take?",
+      "answer": "Refunds are processed within 5–7 business days."
+    },
+    {
+      "id": 52,
+      "question": "Are refunds available for no-shows?",
+      "answer": "No. No-shows are not eligible for refunds."
+    },
+    {
+      "id": 53,
+      "question": "Are refunds available for late cancellations?",
+      "answer": "No. Late cancellations may not qualify for refunds."
+    },
+    {
+      "id": 54,
+      "question": "Will I receive a refund if weather conditions are playable?",
+      "answer": "No. Refunds are not available when playing conditions are considered safe."
+    },
+    {
+      "id": 55,
+      "question": "How will my refund be processed?",
+      "answer": "Refunds are generally processed through the original payment method."
+    },
+    {
+      "id": 56,
+      "question": "Can I reschedule my booking?",
+      "answer": "Yes. One-time rescheduling is allowed."
+    },
+    {
+      "id": 57,
+      "question": "Is rescheduling free?",
+      "answer": "Please confirm with venue management."
+    },
+    {
+      "id": 58,
+      "question": "How many times can I reschedule?",
+      "answer": "Rescheduling is generally allowed once."
+    },
+    {
+      "id": 59,
+      "question": "Can I reschedule to a weekend slot?",
+      "answer": "Yes, subject to availability."
+    },
+    {
+      "id": 60,
+      "question": "Can I reschedule after my slot time has passed?",
+      "answer": "Please contact venue management for assistance."
+    },
+    {
+      "id": 61,
+      "question": "Does the venue provide cricket balls?",
+      "answer": "Yes. Cricket balls are available."
+    },
+    {
+      "id": 62,
+      "question": "Does the venue provide cricket bats?",
+      "answer": "No. Players should bring their own bats."
+    },
+    {
+      "id": 63,
+      "question": "Are helmets provided?",
+      "answer": "Players are advised to bring their own helmets."
+    },
+    {
+      "id": 64,
+      "question": "Are pads provided?",
+      "answer": "Players should bring their own pads."
+    },
+    {
+      "id": 65,
+      "question": "Should I bring gloves?",
+      "answer": "Yes. Personal cricket equipment is recommended."
+    },
+    {
+      "id": 66,
+      "question": "Does the venue provide sportswear?",
+      "answer": "No. Players should wear their own sportswear."
+    },
+    {
+      "id": 67,
+      "question": "Is safety gear mandatory?",
+      "answer": "Safety gear is strongly recommended."
+    },
+    {
+      "id": 68,
+      "question": "Are washrooms available?",
+      "answer": "Yes. Washroom facilities are available."
+    },
+    {
+      "id": 69,
+      "question": "Is parking available?",
+      "answer": "Yes. Parking is available."
+    },
+    {
+      "id": 70,
+      "question": "How many vehicles can be parked?",
+      "answer": "Approximately 25–30 cars can be accommodated."
+    },
+    {
+      "id": 71,
+      "question": "Is drinking water available?",
+      "answer": "Yes. Drinking water is available."
+    },
+    {
+      "id": 72,
+      "question": "Are changing rooms available?",
+      "answer": "Yes. Changing rooms are available."
+    },
+    {
+      "id": 73,
+      "question": "Are lockers available?",
+      "answer": "No. Locker facilities are not available."
+    },
+    {
+      "id": 74,
+      "question": "Is a scoreboard available?",
+      "answer": "Yes. A scoreboard is available."
+    },
+    {
+      "id": 75,
+      "question": "Are floodlights available?",
+      "answer": "Yes. Floodlights are available."
+    },
+    {
+      "id": 76,
+      "question": "Is a pavilion available?",
+      "answer": "Yes. Pavilion and dugout facilities are available."
+    },
+    {
+      "id": 77,
+      "question": "Is a sight screen available?",
+      "answer": "Yes. A sight screen is available."
+    },
+    {
+      "id": 78,
+      "question": "Is first aid available?",
+      "answer": "Yes. First aid support is available."
+    },
+    {
+      "id": 79,
+      "question": "Is smoking allowed inside the venue?",
+      "answer": "No. Smoking is prohibited."
+    },
+    {
+      "id": 80,
+      "question": "Is alcohol allowed inside the venue?",
+      "answer": "No. Alcohol is strictly prohibited."
+    },
+    {
+      "id": 81,
+      "question": "Can intoxicated individuals enter the venue?",
+      "answer": "No. Entry may be denied."
+    },
+    {
+      "id": 82,
+      "question": "Are spectators allowed on the field?",
+      "answer": "No. Spectators must remain outside the active play area."
+    },
+    {
+      "id": 83,
+      "question": "Are cricket shoes recommended?",
+      "answer": "Yes. Proper cricket shoes are recommended."
+    },
+    {
+      "id": 84,
+      "question": "Can abusive language lead to penalties?",
+      "answer": "Yes. Misconduct is not tolerated."
+    },
+    {
+      "id": 85,
+      "question": "Are players required to follow staff instructions?",
+      "answer": "Yes. Staff and security instructions must be followed."
+    },
+    {
+      "id": 86,
+      "question": "How can I contact BalleBaaz Arena?",
+      "answer": "Call or WhatsApp +91 79974 74993."
+    },
+    {
+      "id": 87,
+      "question": "What are the support hours?",
+      "answer": "Support is available from 7:00 AM to 6:00 PM."
+    },
+    {
+      "id": 88,
+      "question": "Can I contact support on WhatsApp?",
+      "answer": "Yes. WhatsApp support is available."
+    },
+    {
+      "id": 89,
+      "question": "Can I check slot availability over the phone?",
+      "answer": "Yes. Contact venue management for availability."
+    },
+    {
+      "id": 90,
+      "question": "Can I confirm my booking by phone?",
+      "answer": "Yes. Booking assistance is available through support."
+    },
+    {
+      "id": 91,
+      "question": "What happens if my payment fails?",
+      "answer": "Retry the payment or contact support."
+    },
+    {
+      "id": 92,
+      "question": "What happens if I accidentally book the wrong slot?",
+      "answer": "Contact venue management immediately."
+    },
+    {
+      "id": 93,
+      "question": "What if additional players arrive after booking?",
+      "answer": "Please contact venue management for approval."
+    },
+    {
+      "id": 94,
+      "question": "What happens if venue property is damaged?",
+      "answer": "Applicable penalties may be charged."
+    },
+    {
+      "id": 95,
+      "question": "Can I dispute a damage charge?",
+      "answer": "Yes. Contact venue management for review."
+    },
+    {
+      "id": 96,
+      "question": "What happens if a tournament is cancelled?",
+      "answer": "Contact venue management for assistance."
+    },
+    {
+      "id": 97,
+      "question": "What if I arrive late?",
+      "answer": "Late arrival may reduce your available playing time."
+    },
+    {
+      "id": 98,
+      "question": "What if my booking confirmation is lost?",
+      "answer": "Contact support with your registered mobile number."
+    },
+    {
+      "id": 99,
+      "question": "What if I forget to bring my cricket bat?",
+      "answer": "Players are responsible for bringing their own bats."
+    },
+    {
+      "id": 100,
+      "question": "What should I do if I need urgent booking assistance?",
+      "answer": "Contact venue support directly by phone or WhatsApp."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ballebaaz Admin Dashboard</title>
+
+    <style>
+
+        body{
+            background:#0b1220;
+            color:white;
+            font-family:Arial;
+            padding:30px;
+        }
+
+        h1{
+            color:#00e5ff;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        th, td{
+            border:1px solid #333;
+            padding:12px;
+            text-align:left;
+        }
+
+        th{
+            background:#111827;
+            color:#00e5ff;
+        }
+
+        tr:nth-child(even){
+            background:#1a2235;
+        }
+
+        tr:hover{
+            background:#24304d;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>🏏 Ballebaaz Arena Admin Dashboard</h1>
+
+    <h3>Chat History</h3>
+
+    <table>
+
+        <tr>
+            <th>User Message</th>
+            <th>Bot Response</th>
+            <th>Timestamp</th>
+        </tr>
+
+        {% for chat in chats %}
+
+        <tr>
+
+            <td>{{ chat.user_message }}</td>
+
+            <td>{{ chat.bot_response }}</td>
+
+            <td>{{ chat.timestamp }}</td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ballebaaz Arena AI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- FAVICON -->
+    <link rel="icon"
+          type="image/x-icon"
+          href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- MAIN CHAT CONTAINER -->
+
+    <div class="chat-container">
+
+        <!-- HEADER -->
+
+        <div class="chat-header">
+
+            <div class="header-left">
+
+                <div class="bot-avatar">
+                    🌐
+                </div>
+
+                <div>
+
+                    <div class="header-title">
+                        Ballebaaz Arena AI
+                    </div>
+
+                    <div class="header-sub">
+                        ● Live & Ready
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="/admin"
+               class="admin-btn">
+
+                Admin Dashboard
+
+            </a>
+
+        </div>
+
+        <!-- DIVIDER -->
+
+        <div class="pitch-divider">
+
+            ▸ BALLEBAAZ ARENA ◂
+
+        </div>
+
+        <!-- CHAT AREA -->
+
+        <div class="chat-box"
+             id="chat-box">
+
+            <!-- BOT WELCOME MESSAGE -->
+
+            <div class="bot-message">
+
+                <div class="avatar-sm">
+                    🏏
+                </div>
+
+                <div class="bubble-wrap">
+
+                    <div class="bubble">
+
+                        Welcome to
+                        <strong>Ballebaaz Arena!</strong>
+
+                        <br><br>
+
+                        Ask me anything about:
+                        <br>
+                        • Ground Timings
+                        <br>
+                        • Slot Availability
+                        <br>
+                        • Booking Prices
+                        <br>
+                        • Facilities
+                        <br>
+                        • Cancellation Policy
+                    </div>
+
+                    <div class="msg-time">
+                        03:22 PM
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+  <!-- QUICK CHIPS -->
+
+<div class="chip-row" id="chip-row">
+
+    <button class="chip"
+            data-msg="What are the ground timings?">
+        Ground Timings
+    </button>
+
+    <button class="chip"
+            data-msg="What slots are available?">
+        Available Slots
+    </button>
+
+    <button class="chip"
+            data-msg="What is the booking price?">
+        Booking Price
+    </button>
+
+    <button class="chip"
+            data-msg="What facilities are available?">
+        Facilities
+    </button>
+
+</div>
+    
+
+        <!-- INPUT AREA -->
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Ask about Ballebaaz Arena..."
+            >
+
+           <button id="send-btn">
+
+    ➤
+
+</button>
+        </div>
+
+    </div>
+
+    <!-- SCRIPT -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
